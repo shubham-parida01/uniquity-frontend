@@ -1,0 +1,7 @@
+# Render – Web Service (serves Vite build with serve)
+# https://render.com/docs/web-services
+services:
+  - type: web
+    name: uniquity-frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
